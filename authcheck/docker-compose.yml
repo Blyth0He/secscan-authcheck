@@ -23,5 +23,5 @@ services:
     restart: always
     command: redis-server --requirepass 123456
   mongo:
-    image: mongo
+    image: mongo:3.6.12
     restart: always
